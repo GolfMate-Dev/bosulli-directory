@@ -1,0 +1,19 @@
+:root { color-scheme: light; background: #f8f7f2; color: #202822; font-family: system-ui, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(100% - 2rem, 44rem); margin: clamp(2.75rem, 9vw, 6rem) auto 2rem; }
+header { margin-bottom: 2.75rem; }
+.domain { margin: 0 0 .6rem; color: #375b46; font-weight: 750; }
+h1 { margin: 0; font-size: clamp(2.2rem, 8vw, 3.65rem); line-height: 1.07; letter-spacing: -.045em; }
+.intro { margin: .9rem 0 0; color: #45534a; font-size: 1.12rem; line-height: 1.55; }
+h2 { margin: 0 0 .65rem; font-size: 1rem; }
+.projects { list-style: none; margin: 0; padding: 0; display: grid; gap: .8rem; }
+.project { background: #fff; border: 1px solid #d7dfd7; border-radius: .9rem; padding: 1.1rem 1.15rem; }
+.row { display: flex; align-items: baseline; justify-content: space-between; gap: .55rem 1rem; flex-wrap: wrap; }
+h3 { margin: 0; font-size: 1.17rem; }
+.project p { margin: .5rem 0 0; color: #45534a; line-height: 1.48; }
+.address { font-size: .88rem; overflow-wrap: anywhere; }
+.status { font-size: .8rem; font-weight: 650; padding: .23rem .54rem; border-radius: .4rem; background: #edf3ed; color: #365342; }
+a { color: #205b3d; text-underline-offset: .18em; }
+a:focus-visible { outline: 2px solid #205b3d; outline-offset: 3px; }
+footer { margin: 1.5rem 0 0; color: #45534a; font-size: .88rem; }
